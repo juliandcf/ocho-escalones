@@ -1,3 +1,9 @@
+# Juga a los 8 escalones 
+
+App frontend en React para jugar a los 8 escalones (programa de canal 13, Argentina) desde casa. La idea es que puedas contabilizar cuantas respuestas correctas e incorrectas tenes en cada programa y tener una estadistica propia.
+
+ El objetivo del proyecto es personal, para practicar React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

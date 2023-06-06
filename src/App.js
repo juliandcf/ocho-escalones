@@ -8,7 +8,7 @@ function App() {
     <main role='main' className='container text-center' >
       <h1>Jugá a los 8 escalones desde casa!</h1>
       <Program></Program>
-      <HistoryPrograms></HistoryPrograms>
+      {/* <HistoryPrograms></HistoryPrograms> */}
     </main>
   );
 }

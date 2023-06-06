@@ -3,17 +3,17 @@ import React from 'react'
 const HistoryPrograms = () => {
   return (
     <div>
-              <div className='row justify-content-md-center mt-5'>
-        <div class="col-7">
+        <div className='row justify-content-md-center mt-5'>
+        <div className="col-7">
           <h3 className=''>Programas anteriores</h3>
         </div>
-        <div class="col-sm-2">
+        <div className="col-sm-2">
               <button className="btn btn-secondary">Limpiar todo</button>
         </div>
       </div>
       <div className='row justify-content-md-center mt-5'>
-        <div class="col-7">
-          <table class="table">
+        <div className="col-7">
+          <table className="table">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -30,7 +30,7 @@ const HistoryPrograms = () => {
                 <td>95%</td>
                 <td>5%</td>
                 <td>
-                  <button className='btn btn-outline-danger'><i class="bi-trash3-fill"></i> Eliminar</button>
+                  <button className='btn btn-outline-danger'><i className="bi-trash3-fill"></i> Eliminar</button>
                 </td>
               </tr>
             </tbody>

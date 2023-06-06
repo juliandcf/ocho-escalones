@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ocho-escalones/static/css/main.31f90d6d.css",
+    "main.js": "/ocho-escalones/static/js/main.bd3aabec.js",
+    "static/js/787.7ad61e97.chunk.js": "/ocho-escalones/static/js/787.7ad61e97.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/ocho-escalones/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/ocho-escalones/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/ocho-escalones/index.html",
+    "main.31f90d6d.css.map": "/ocho-escalones/static/css/main.31f90d6d.css.map",
+    "main.bd3aabec.js.map": "/ocho-escalones/static/js/main.bd3aabec.js.map",
+    "787.7ad61e97.chunk.js.map": "/ocho-escalones/static/js/787.7ad61e97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31f90d6d.css",
+    "static/js/main.bd3aabec.js"
+  ]
+}

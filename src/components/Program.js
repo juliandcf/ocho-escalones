@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ProgramService from '../services/ProgramService';
 import NewProgramButton from './NewProgramButton';
 
 const Program = () => {
@@ -8,11 +9,19 @@ const Program = () => {
   const [porcentajeIncorrectas, setPorcentajeIncorrectas] = useState(0);
 
   useEffect(() => {
-    if (programCreated === undefined) {
+    const storedProgram = ProgramService.getProgramData()
+    if (storedProgram) {
+      setProgramCreated(storedProgram);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (programCreated === undefined || programCreated === null) {
       return;
     }
 
-    setProgramTitle(`Programa Nº ${programCreated.id} - ${programCreated.fecha.toLocaleDateString()}`);
+    setProgramTitle(`Programa Nº ${programCreated?.id} - ${programCreated?.fecha}`);
+    ProgramService.updateProgram(programCreated)
   }, [programCreated]);
 
   useEffect(() => {
